@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <RadioGroup
+            android:id="@+id/radioGroupOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/CustomText"
+                android:text="Q1. Which of the following is a keyword in Java" />
+
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="a. begin" />
+
+            <RadioButton
+                android:id="@+id/radioAnsOne"
+                style="@style/CustomRadio"
+                android:text="b. break" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="c. first" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="d. start" />
+            <!--    Answer: b-->
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/CustomText"
+                android:text="Q2. Which of the following is not a primitive data type in Java?" />
+
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="boolean" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="int" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="float" />
+
+            <RadioButton
+                android:id="@+id/radioAnsTwo"
+                style="@style/CustomRadio"
+                android:text="string" />
+            <!--    Answer: d-->
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q3. What is the default value of an instance variable in Java?" />
+
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="a. 0" />
+
+            <RadioButton
+                android:id="@+id/radioAnsThree"
+                style="@style/CustomRadio"
+                android:text="b. null" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="c. false" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="d. undefined" />
+            <!--    Answer: b-->
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupFour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q4. Which of the following is not a valid XML tag syntax?" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="a. &lt;h1&gt;"
+                />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="b. &lt;p&gt;" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="c. &lt;img&gt;" />
+
+            <RadioButton
+                android:id="@+id/radioAnsFour"
+                style="@style/CustomRadio"
+                android:text="d. &lt;1h&gt;" />
+
+            <!--    Answer: d-->
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupFive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/CustomText"
+                android:text="Q5. What is the purpose of the xmlns attribute in XML?" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="a. to specify the encoding of the XML document" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="b. to specify the version of the XML specification used" />
+
+            <RadioButton
+                android:id="@+id/radioAnsFive"
+                style="@style/CustomRadio"
+                android:text="c. to specify the namespace of the XML document" />
+
+            <RadioButton
+                style="@style/CustomRadio"
+                android:text="d. to specify the stylesheet used to display the XML document" />
+
+            <!--    Answer: c-->
+
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupSex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q6. Which of the following is not a valid XML element?" />
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="a. &lt;name&gt;John&lt;/name&gt;" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="b. &lt;address&gt;123 Main St&lt;/address&gt;" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="c. &lt;phone&gt;(555) 123-4567&lt;/phone&gt;" />
+
+            <RadioButton
+                android:id="@+id/radioAnsSex"
+                style="@style/CustomRadio"
+                android:text="d. &lt;email&gt;john@example.com&lt;email&gt;" />
+            <!--        Answer: d (missing closing angle bracket)-->
+
+        </RadioGroup>
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupSeven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q7. What is the difference between an abstract class and an interface in Java?" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="a. an interface can have method implementations while an abstract class cannot" />
+
+            <RadioButton
+                android:id="@+id/radioAnsSeven"
+                style="@style/CustomRadio"
+                android:text="b. an abstract class can have method implementations while an interface cannot" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="c. an interface can have instance variables while an abstract class cannot" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="d. an abstract class can have instance variables while an interface cannot" />
+            <!--    Answer: b-->
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupEight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q8. What is the purpose of the package keyword in Java?" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="a. to declare a class as public" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="b. to declare a class as abstract" />
+
+            <RadioButton
+                android:id="@+id/radioAnsEight"
+                style="@style/CustomRadio"
+                android:text="c. to specify the location of a class within a package hierarchy" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="d. to declare a class as final" />
+            <!--    Answer: c-->
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupNine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                style="@style/CustomText"
+                android:text="Q9. Which of the following is not a valid XML processing instruction?" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="a. &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="b. &lt;?xml-stylesheet href=&quot;style.css&quot; type=&quot;text/css&quot;?&gt;" />
+
+            <RadioButton
+                android:id="@+id/radioAnsNine"
+                style="@style/CustomRadio"
+                android:text="c. &lt;?xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;?&gt;" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="b. &lt;?php echo &quot;Hello World&quot;; ?&gt;" />
+            <!--    Answer: c-->
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupTen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/CustomText"
+                android:text="Q10. Which of the following is not a valid XML attribute value?" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="a. &lt;&quot;John&quot; /&gt;" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="b. 'John'" />
+
+            <RadioButton
+
+                style="@style/CustomRadio"
+                android:text="c. John" />
+
+            <RadioButton
+                android:id="@+id/radioAnsTen"
+                style="@style/CustomRadio"
+                android:text="d. &lt;John&gt;" />
+        </RadioGroup>
+
+
+
+
+        <!--        <TextView-->
+        <!--            style="@style/CustomText"-->
+        <!--            android:text="Q7.Physics is the study of _________ and matter in space and time" />-->
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/checkAns7"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:hint="Put Your answer here" />-->
+
+        <Button
+            android:id="@+id/submit_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submit_answer"
+            android:text="Submit"
+            android:textColor="#E6E9E8"
+            android:textAllCaps="true"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
